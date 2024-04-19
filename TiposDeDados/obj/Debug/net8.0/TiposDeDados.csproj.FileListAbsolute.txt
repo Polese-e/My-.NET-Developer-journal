@@ -1,0 +1,15 @@
+D:\Github\My-.NET-Developer-journal\TiposDeDados\bin\Debug\net8.0\TiposDeDados.exe
+D:\Github\My-.NET-Developer-journal\TiposDeDados\bin\Debug\net8.0\TiposDeDados.deps.json
+D:\Github\My-.NET-Developer-journal\TiposDeDados\bin\Debug\net8.0\TiposDeDados.runtimeconfig.json
+D:\Github\My-.NET-Developer-journal\TiposDeDados\bin\Debug\net8.0\TiposDeDados.dll
+D:\Github\My-.NET-Developer-journal\TiposDeDados\bin\Debug\net8.0\TiposDeDados.pdb
+D:\Github\My-.NET-Developer-journal\TiposDeDados\obj\Debug\net8.0\TiposDeDados.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\My-.NET-Developer-journal\TiposDeDados\obj\Debug\net8.0\TiposDeDados.AssemblyInfoInputs.cache
+D:\Github\My-.NET-Developer-journal\TiposDeDados\obj\Debug\net8.0\TiposDeDados.AssemblyInfo.cs
+D:\Github\My-.NET-Developer-journal\TiposDeDados\obj\Debug\net8.0\TiposDeDados.csproj.CoreCompileInputs.cache
+D:\Github\My-.NET-Developer-journal\TiposDeDados\obj\Debug\net8.0\TiposDeDados.sourcelink.json
+D:\Github\My-.NET-Developer-journal\TiposDeDados\obj\Debug\net8.0\TiposDeDados.dll
+D:\Github\My-.NET-Developer-journal\TiposDeDados\obj\Debug\net8.0\refint\TiposDeDados.dll
+D:\Github\My-.NET-Developer-journal\TiposDeDados\obj\Debug\net8.0\TiposDeDados.pdb
+D:\Github\My-.NET-Developer-journal\TiposDeDados\obj\Debug\net8.0\TiposDeDados.genruntimeconfig.cache
+D:\Github\My-.NET-Developer-journal\TiposDeDados\obj\Debug\net8.0\ref\TiposDeDados.dll
