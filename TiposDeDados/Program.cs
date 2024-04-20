@@ -1,4 +1,4 @@
-﻿using ExemploFundamentos.Models;
+﻿// using ExemploFundamentos.Models;
 
 // DateTime dataAtual = DateTime.Now.AddMonths(5);
 // Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH/mm" ));
@@ -13,14 +13,14 @@
 
 // Console.WriteLine(apresentacao);
 
-// ===================================================================================================================
+// ================================================================================================================== //
 
 // int inteiro = 5;
 // string a = inteiro.ToString();
 
 // Console.WriteLine(a);
 
-// ===================================================================================================================
+// ================================================================================================================== //
 
 // int a = 5;
 // double b = a;
@@ -37,7 +37,7 @@
 
 // Console.WriteLine(f);
 
-// ===================================================================================================================
+// ================================================================================================================== //
 
 // string a = "15-";
 
@@ -46,3 +46,46 @@
 // int.TryParse(a, out b);
 
 // Console.WriteLine(b);
+
+// ================================================================================================================== //
+
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 4;
+bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+Console.WriteLine($"É possivel realizar a venda? {possivelVenda}");
+
+if (quantidadeCompra == 0)
+{
+    Console.WriteLine("Venda inválida.");
+}
+else if (possivelVenda)
+{
+    Console.WriteLine("Venda Realizada!");
+}
+else
+{
+    Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque.");
+}
+
+// ================================================================================================================== //
+
+Console.WriteLine("Digite uma letra:");
+string letra = Console.ReadLine();
+
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+    Console.WriteLine("É uma vogal.");
+    break;
+    
+    default:
+    Console.WriteLine("Não é uma vogal.");
+    break;
+}
