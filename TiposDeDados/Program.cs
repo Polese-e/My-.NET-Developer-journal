@@ -1,4 +1,5 @@
-﻿// using ExemploFundamentos.Models;
+﻿using System.Reflection.Metadata;
+using ExemploFundamentos.Models;
 
 // DateTime dataAtual = DateTime.Now.AddMonths(5);
 // Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH/mm" ));
@@ -49,43 +50,85 @@
 
 // ================================================================================================================== //
 
-int quantidadeEmEstoque = 10;
-int quantidadeCompra = 4;
-bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+// int quantidadeEmEstoque = 10;
+// int quantidadeCompra = 4;
+// bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
 
-Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
-Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
-Console.WriteLine($"É possivel realizar a venda? {possivelVenda}");
+// Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+// Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+// Console.WriteLine($"É possivel realizar a venda? {possivelVenda}");
 
-if (quantidadeCompra == 0)
+// if (quantidadeCompra == 0)
+// {
+//     Console.WriteLine("Venda inválida.");
+// }
+// else if (possivelVenda)
+// {
+//     Console.WriteLine("Venda Realizada!");
+// }
+// else
+// {
+//     Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque.");
+// }
+
+// ================================================================================================================== //
+
+// Console.WriteLine("Digite uma letra:");
+// string letra = Console.ReadLine();
+
+// switch (letra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//     Console.WriteLine("É uma vogal.");
+//     break;
+    
+//     default:
+//     Console.WriteLine("Não é uma vogal.");
+//     break;
+// }
+
+// ================================================================================================================== //
+
+bool maiorDeIdade = true;
+bool possuiAutorizacaoDoResponsavel = false;
+
+if (maiorDeIdade || possuiAutorizacaoDoResponsavel)
 {
-    Console.WriteLine("Venda inválida.");
-}
-else if (possivelVenda)
-{
-    Console.WriteLine("Venda Realizada!");
+    Console.WriteLine("Entrada liberada!");
 }
 else
 {
-    Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque.");
+    Console.WriteLine("Entrada liberada!");
 }
 
 // ================================================================================================================== //
 
-Console.WriteLine("Digite uma letra:");
-string letra = Console.ReadLine();
+bool possuiPresencaMinima = true;
+double media = 7.5;
 
-switch (letra)
+if (possuiPresencaMinima && media >= 7)
 {
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-    Console.WriteLine("É uma vogal.");
-    break;
-    
-    default:
-    Console.WriteLine("Não é uma vogal.");
-    break;
+    Console.WriteLine("Aprovado!");
+}
+else
+{
+    Console.WriteLine("Reprovado!");
+}
+
+// ================================================================================================================== //
+
+bool choveu = false;
+bool estaTarde = false;
+
+if (!choveu && !estaTarde)
+{
+    Console.WriteLine("Vou pedalar");
+}
+else
+{
+    Console.WriteLine("Vou pedalar um outro dia");
 }
