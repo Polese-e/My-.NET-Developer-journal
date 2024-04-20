@@ -1,5 +1,6 @@
 ﻿using System.Reflection.Metadata;
 using ExemploFundamentos.Models;
+using TiposDeDados.Models;
 
 // DateTime dataAtual = DateTime.Now.AddMonths(5);
 // Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH/mm" ));
@@ -85,7 +86,7 @@ using ExemploFundamentos.Models;
 //     case "u":
 //     Console.WriteLine("É uma vogal.");
 //     break;
-    
+
 //     default:
 //     Console.WriteLine("Não é uma vogal.");
 //     break;
@@ -93,42 +94,75 @@ using ExemploFundamentos.Models;
 
 // ================================================================================================================== //
 
-bool maiorDeIdade = true;
-bool possuiAutorizacaoDoResponsavel = false;
+// bool maiorDeIdade = true;
+// bool possuiAutorizacaoDoResponsavel = false;
 
-if (maiorDeIdade || possuiAutorizacaoDoResponsavel)
-{
-    Console.WriteLine("Entrada liberada!");
-}
-else
-{
-    Console.WriteLine("Entrada liberada!");
-}
-
-// ================================================================================================================== //
-
-bool possuiPresencaMinima = true;
-double media = 7.5;
-
-if (possuiPresencaMinima && media >= 7)
-{
-    Console.WriteLine("Aprovado!");
-}
-else
-{
-    Console.WriteLine("Reprovado!");
-}
+// if (maiorDeIdade || possuiAutorizacaoDoResponsavel)
+// {
+//     Console.WriteLine("Entrada liberada!");
+// }
+// else
+// {
+//     Console.WriteLine("Entrada liberada!");
+// }
 
 // ================================================================================================================== //
 
-bool choveu = false;
-bool estaTarde = false;
+// bool possuiPresencaMinima = true;
+// double media = 7.5;
 
-if (!choveu && !estaTarde)
-{
-    Console.WriteLine("Vou pedalar");
-}
-else
-{
-    Console.WriteLine("Vou pedalar um outro dia");
-}
+// if (possuiPresencaMinima && media >= 7)
+// {
+//     Console.WriteLine("Aprovado!");
+// }
+// else
+// {
+//     Console.WriteLine("Reprovado!");
+// }
+
+// ================================================================================================================== //
+
+// bool choveu = false;
+// bool estaTarde = false;
+
+// if (!choveu && !estaTarde)
+// {
+//     Console.WriteLine("Vou pedalar");
+// }
+// else
+// {
+//     Console.WriteLine("Vou pedalar um outro dia");
+// }
+
+// ================================================================================================================== //
+
+Calculadora calc = new Calculadora();
+
+calc.Somar(10, 30);
+calc.Subtrair(10, 40);
+calc.Multiplicar(10, 20);
+calc.Dividir(10, 5);
+calc.Potencia(3, 3);
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangente(30);
+calc.RaizQuadrada(9);
+
+// ================================================================================================================== //
+
+int numeroIncremento = 10;
+
+Console.WriteLine("Incrementendo o 10");
+numeroIncremento++;
+
+Console.WriteLine(numeroIncremento);
+
+int numeroDecremento = 20;
+
+Console.WriteLine("Decrementendo o 20");
+numeroDecremento--;
+
+Console.WriteLine(numeroDecremento);
+
+// ================================================================================================================== //
+
