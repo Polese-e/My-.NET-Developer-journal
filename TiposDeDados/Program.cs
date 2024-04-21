@@ -136,33 +136,113 @@ using TiposDeDados.Models;
 
 // ================================================================================================================== //
 
-Calculadora calc = new Calculadora();
+// Calculadora calc = new Calculadora();
 
-calc.Somar(10, 30);
-calc.Subtrair(10, 40);
-calc.Multiplicar(10, 20);
-calc.Dividir(10, 5);
-calc.Potencia(3, 3);
-calc.Seno(30);
-calc.Coseno(30);
-calc.Tangente(30);
-calc.RaizQuadrada(9);
-
-// ================================================================================================================== //
-
-int numeroIncremento = 10;
-
-Console.WriteLine("Incrementendo o 10");
-numeroIncremento++;
-
-Console.WriteLine(numeroIncremento);
-
-int numeroDecremento = 20;
-
-Console.WriteLine("Decrementendo o 20");
-numeroDecremento--;
-
-Console.WriteLine(numeroDecremento);
+// calc.Somar(10, 30);
+// calc.Subtrair(10, 40);
+// calc.Multiplicar(10, 20);
+// calc.Dividir(10, 5);
+// calc.Potencia(3, 3);
+// calc.Seno(30);
+// calc.Coseno(30);
+// calc.Tangente(30);
+// calc.RaizQuadrada(9);
 
 // ================================================================================================================== //
 
+// int numeroIncremento = 10;
+
+// Console.WriteLine("Incrementendo o 10");
+// numeroIncremento++;
+
+// Console.WriteLine(numeroIncremento);
+
+// int numeroDecremento = 20;
+
+// Console.WriteLine("Decrementendo o 20");
+// numeroDecremento--;
+
+// Console.WriteLine(numeroDecremento);
+
+// ================================================================================================================== //
+
+// int numero = 5;
+
+// for (int contador = 0; contador <= 10; contador++)
+// {
+//     Console.WriteLine($"{numero} X {contador} = {numero * contador}");
+// }
+
+// ================================================================================================================== //
+
+// int numero = 5;
+// int contador = 1;
+
+// while (contador <= 10)
+// {
+//     Console.WriteLine($"{contador} Execução: {numero} X {contador} = {numero * contador}");
+//     contador++;
+
+//     if (contador == 6)
+//     {
+//         break;
+//     }
+// }
+
+// ================================================================================================================== //
+
+// int numero = 0, soma = 0;
+
+// do
+// {
+//     Console.WriteLine("Digite um número: (0 para parar)");
+//     numero = Convert.ToInt32(Console.ReadLine());
+    
+//     soma += numero;
+
+// } while (numero != 0);
+
+// Console.WriteLine($"O total da soma foi {soma}");
+
+// ================================================================================================================== //
+
+bool exibirMenu = true;
+
+while (exibirMenu)
+{
+    Console.Clear();
+    Console.WriteLine("digite sua opção: ");
+    Console.WriteLine("1 - Cadastrar cliente: ");
+    Console.WriteLine("2 - Buscar cliente: ");
+    Console.WriteLine("3 - Apagar cliente: ");
+    Console.WriteLine("4 - Encerrar: ");
+
+    string opcao = Console.ReadLine();
+
+    switch (opcao)
+    {
+        case "1":
+        Console.WriteLine("Cadastro de cliente");
+        break;
+
+        case "2":
+        Console.WriteLine("Busca de cliente");
+        break;
+        
+        case "3":
+        Console.WriteLine("Apagar cliente");
+        break;
+        
+        case "4":
+        exibirMenu = false;
+        // Console.WriteLine("Encerrar");
+        // Environment.Exit(0);
+        break;
+        
+        default:
+        Console.WriteLine("Opção inválida");
+        break;
+    }
+}
+
+Console.WriteLine("O programa foi encerrado");
