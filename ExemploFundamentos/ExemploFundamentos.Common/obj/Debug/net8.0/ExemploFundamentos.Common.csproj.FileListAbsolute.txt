@@ -1,0 +1,12 @@
+D:\Github\My-.NET-Developer-journal\ExemploFundamentos\ExemploFundamentos.Common\bin\Debug\net8.0\ExemploFundamentos.Common.deps.json
+D:\Github\My-.NET-Developer-journal\ExemploFundamentos\ExemploFundamentos.Common\bin\Debug\net8.0\ExemploFundamentos.Common.dll
+D:\Github\My-.NET-Developer-journal\ExemploFundamentos\ExemploFundamentos.Common\bin\Debug\net8.0\ExemploFundamentos.Common.pdb
+D:\Github\My-.NET-Developer-journal\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\My-.NET-Developer-journal\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.AssemblyInfoInputs.cache
+D:\Github\My-.NET-Developer-journal\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.AssemblyInfo.cs
+D:\Github\My-.NET-Developer-journal\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.csproj.CoreCompileInputs.cache
+D:\Github\My-.NET-Developer-journal\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.sourcelink.json
+D:\Github\My-.NET-Developer-journal\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.dll
+D:\Github\My-.NET-Developer-journal\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net8.0\refint\ExemploFundamentos.Common.dll
+D:\Github\My-.NET-Developer-journal\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net8.0\ExemploFundamentos.Common.pdb
+D:\Github\My-.NET-Developer-journal\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net8.0\ref\ExemploFundamentos.Common.dll
