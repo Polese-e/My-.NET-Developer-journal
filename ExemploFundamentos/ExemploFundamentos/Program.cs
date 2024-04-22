@@ -244,11 +244,19 @@ using ExemploFundamentos.Common.Models;
 
 // Console.WriteLine("O programa foi encerrado");
 
+// ================================================================================================================== //
+
 int[] arrayInteiros = new int[3];
 
 arrayInteiros[0] = 40;
 arrayInteiros[1] = 50;
 arrayInteiros[2] = 60;
+
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length*2];
+
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length*2);
 
 Console.WriteLine("Percorrendo o array com o FOR");
 
@@ -266,3 +274,23 @@ foreach (int valor in arrayInteiros)
     Console.WriteLine($"Posição N° {contadorForeach} - {valor}");
     contadorForeach++;
 }
+
+// ================================================================================================================== //
+
+
+List<string> listaString = new List<string>();
+
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
+listaString.Add("RJ");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} Capacidade: {listaString.Capacity}");
+
+listaString.Add("SC");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} Capacidade: {listaString.Capacity}");
+
+listaString.Remove("MG");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} Capacidade: {listaString.Capacity}");
