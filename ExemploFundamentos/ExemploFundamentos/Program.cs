@@ -1,4 +1,5 @@
-﻿using System.Reflection.Metadata;
+﻿using System.Collections.ObjectModel;
+using System.Reflection.Metadata;
 using ExemploFundamentos.Common.Models;
 // DateTime dataAtual = DateTime.Now.AddMonths(5);
 // Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH/mm" ));
@@ -243,3 +244,25 @@ using ExemploFundamentos.Common.Models;
 
 // Console.WriteLine("O programa foi encerrado");
 
+int[] arrayInteiros = new int[3];
+
+arrayInteiros[0] = 40;
+arrayInteiros[1] = 50;
+arrayInteiros[2] = 60;
+
+Console.WriteLine("Percorrendo o array com o FOR");
+
+for (int contador = 0; contador < arrayInteiros.Length; contador++)
+{
+    Console.WriteLine($"Posição N° {contador} - {arrayInteiros[contador]}");
+}
+
+Console.WriteLine("Percorrendo o array com o FOREACH");
+
+int contadorForeach = 0;
+
+foreach (int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição N° {contadorForeach} - {valor}");
+    contadorForeach++;
+}
