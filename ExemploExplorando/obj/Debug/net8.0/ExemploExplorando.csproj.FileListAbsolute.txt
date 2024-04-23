@@ -1,0 +1,15 @@
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.exe
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.deps.json
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.runtimeconfig.json
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.dll
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.pdb
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfoInputs.cache
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfo.cs
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.sourcelink.json
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.dll
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\refint\ExemploExplorando.dll
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.pdb
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.genruntimeconfig.cache
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\ref\ExemploExplorando.dll
