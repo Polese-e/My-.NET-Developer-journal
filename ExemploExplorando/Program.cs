@@ -17,30 +17,62 @@ using System.Globalization;
 
 /* ================================================================================================================== */
 
-CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
-decimal valorMonetario = 1582.40M;
+// CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
+// decimal valorMonetario = 1582.40M;
 
-Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("en-US")));
-Console.WriteLine(valorMonetario.ToString("C1"));
-Console.WriteLine(valorMonetario.ToString("C3"));
-Console.WriteLine(valorMonetario.ToString("N3"));
+// Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("en-US")));
+// Console.WriteLine(valorMonetario.ToString("C1"));
+// Console.WriteLine(valorMonetario.ToString("C3"));
+// Console.WriteLine(valorMonetario.ToString("N3"));
 
-double porcentagem = .3421;
+// double porcentagem = .3421;
 
-Console.WriteLine(porcentagem.ToString("P"));
+// Console.WriteLine(porcentagem.ToString("P"));
 
-int numero = 123456;
-Console.WriteLine(numero.ToString("##-##-##"));
+// int numero = 123456;
+// Console.WriteLine(numero.ToString("##-##-##"));
 
 /* ================================================================================================================== */
 
-string dataString = "23/04/2024 09:00";
+// string dataString = "23/04/2024 09:00";
 
-DateTime.TryParseExact(dataString, )
+// DateTime.TryParseExact(dataString, )
 
-DateTime data = DateTime.Parse(dataString);
+// DateTime data = DateTime.Parse(dataString);
 
-Console.WriteLine(data.ToString("dd/MM/yy HH/mm"));
-Console.WriteLine(data);
-Console.WriteLine(data.ToShortDateString());
-Console.WriteLine(data.ToShortTimeString());
+// Console.WriteLine(data.ToString("dd/MM/yy HH/mm"));
+// Console.WriteLine(data);
+// Console.WriteLine(data.ToShortDateString());
+// Console.WriteLine(data.ToShortTimeString());
+
+/* ================================================================================================================== */
+
+// try
+// {
+// string[] linhas = File.ReadAllLines("Arquivos/pastaInexistente/arquivoLeitura.txt");
+
+// foreach (string linha in linhas)
+// {
+//     Console.WriteLine(linha);
+// }
+// } 
+// catch (FileNotFoundException ex)
+// {
+//     Console.WriteLine($"Error: File not found: {ex.Message}");
+// }
+// catch (DirectoryNotFoundException ex)
+// {
+//     Console.WriteLine($"Error: Directory not found: {ex.Message}");
+// }
+// catch (Exception ex)
+// {
+//     Console.WriteLine($"Error: {ex.Message}");
+// }
+// finally
+// {
+//     Console.WriteLine("Chegou até aqui!");
+// }
+
+/* ================================================================================================================== */
+
+new ExemploExcecao().Metodo1();
