@@ -189,37 +189,54 @@ using System.Globalization;
 
 /* ================================================================================================================== */
 
-(int, string, string, decimal) tupla = (1, "Enzo", "Polese", 1.67M);
+// (int, string, string, decimal) tupla = (1, "Enzo", "Polese", 1.67M);
 
-Console.WriteLine($"Id: {tupla.Item1}");
-Console.WriteLine($"Nome: {tupla.Item2}");
-Console.WriteLine($"Sobrenome: {tupla.Item3}");
-Console.WriteLine($"Altura: {tupla.Item4}");
-
-/* ================================================================================================================== */
-
-(int idCliente, string nomeCliente, string sobrenomeCliente, string emailCliente) cliente = (1, "Enzo", "Polese", "enzo.polese@example.com");
-
-Console.WriteLine($"Id do cliente: {cliente.idCliente}");
-Console.WriteLine($"Nome do cliente: {cliente.nomeCliente}");
-Console.WriteLine($"Sobrenome do cliente: {cliente.sobrenomeCliente}");
-Console.WriteLine($"Email do cliente: {cliente.emailCliente}");
+// Console.WriteLine($"Id: {tupla.Item1}");
+// Console.WriteLine($"Nome: {tupla.Item2}");
+// Console.WriteLine($"Sobrenome: {tupla.Item3}");
+// Console.WriteLine($"Altura: {tupla.Item4}");
 
 /* ================================================================================================================== */
 
-LeituraArquivo arquivo = new LeituraArquivo();
+// (int idCliente, string nomeCliente, string sobrenomeCliente, string emailCliente) cliente = (1, "Enzo", "Polese", "enzo.polese@example.com");
 
-var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+// Console.WriteLine($"Id do cliente: {cliente.idCliente}");
+// Console.WriteLine($"Nome do cliente: {cliente.nomeCliente}");
+// Console.WriteLine($"Sobrenome do cliente: {cliente.sobrenomeCliente}");
+// Console.WriteLine($"Email do cliente: {cliente.emailCliente}");
 
-if (sucesso)
-{
-    // Console.WriteLine("Quantidade de linhas do arquivo:" + quantidadeLinhas);
-    foreach (string linha in linhasArquivo)
-    {
-        Console.WriteLine(linha);
-    }
-}
-else
-{
-    Console.WriteLine("Não foi possível ler o arquivo");
-}
+/* ================================================================================================================== */
+
+// LeituraArquivo arquivo = new LeituraArquivo();
+
+// var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+// if (sucesso)
+// {
+//     // Console.WriteLine("Quantidade de linhas do arquivo:" + quantidadeLinhas);
+//     foreach (string linha in linhasArquivo)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("Não foi possível ler o arquivo");
+// }
+
+/* ================================================================================================================== */
+
+Pessoa p1 = new Pessoa("Enzo", "Polese");
+
+(string nome, string sobrenome) = p1;
+
+Console.WriteLine($"{nome} {sobrenome}");
+
+/* ================================================================================================================== */
+
+int numero = 10;
+bool ehPar = false;
+
+ehPar = numero % 2 == 0;
+
+Console.WriteLine($"O número (numero) é {(ehPar ? "par" : "impar")}");
