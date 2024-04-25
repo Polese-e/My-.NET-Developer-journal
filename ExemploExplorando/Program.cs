@@ -1,5 +1,8 @@
 ﻿using ExemploExplorando.Models;
+using Newtonsoft.Json;
 using System.Globalization;
+using System.Text.Json.Nodes;
+
 
 // Pessoa p1 = new Pessoa(nome: "Enzo", sobrenome: "Polese");
 // Pessoa p2 = new Pessoa(nome: "Alícya", sobrenome: "Capucho");
@@ -226,17 +229,47 @@ using System.Globalization;
 
 /* ================================================================================================================== */
 
-Pessoa p1 = new Pessoa("Enzo", "Polese");
+// Pessoa p1 = new Pessoa("Enzo", "Polese");
 
-(string nome, string sobrenome) = p1;
+// (string nome, string sobrenome) = p1;
 
-Console.WriteLine($"{nome} {sobrenome}");
+// Console.WriteLine($"{nome} {sobrenome}");
 
 /* ================================================================================================================== */
 
-int numero = 10;
-bool ehPar = false;
+// int numero = 10;
+// bool ehPar = false;
 
-ehPar = numero % 2 == 0;
+// ehPar = numero % 2 == 0;
 
-Console.WriteLine($"O número (numero) é {(ehPar ? "par" : "impar")}");
+// Console.WriteLine($"O número (numero) é {(ehPar ? "par" : "impar")}");
+
+/* ================================================================================================================== */
+
+// DateTime dataAtual = DateTime.Now;
+
+// List<Venda> listaVendas = new List<Venda>();
+
+// Venda v1 = new Venda(1, "Material de Escritório", 25.00M, dataAtual);
+// Venda v2 = new Venda(2, "Licença de Software", 110.00M, dataAtual);
+
+// listaVendas.Add(v1);
+// listaVendas.Add(v2);
+
+// string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+// File.WriteAllText("Arquivos/vendas.json", serializado);
+
+// Console.WriteLine(serializado);
+
+/* ================================================================================================================== */
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach (var venda in listaVenda)
+{
+    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto} Preço: {venda.Preco}, Data: {venda.DataVenda.ToString
+    ("dd/MM/yyyy HH:mm")}");
+}

@@ -13,3 +13,6 @@ D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\refint\Ex
 D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.pdb
 D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.genruntimeconfig.cache
 D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\ref\ExemploExplorando.dll
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.csproj.AssemblyReference.cache
+D:\Github\My-.NET-Developer-journal\ExemploExplorando\obj\Debug\net8.0\ExemploE.B7F01285.Up2Date
