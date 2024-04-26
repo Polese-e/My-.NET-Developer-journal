@@ -1,0 +1,15 @@
+D:\Github\My-.NET-Developer-journal\ExemploPOO\bin\Debug\net8.0\ExemploPOO.exe
+D:\Github\My-.NET-Developer-journal\ExemploPOO\bin\Debug\net8.0\ExemploPOO.deps.json
+D:\Github\My-.NET-Developer-journal\ExemploPOO\bin\Debug\net8.0\ExemploPOO.runtimeconfig.json
+D:\Github\My-.NET-Developer-journal\ExemploPOO\bin\Debug\net8.0\ExemploPOO.dll
+D:\Github\My-.NET-Developer-journal\ExemploPOO\bin\Debug\net8.0\ExemploPOO.pdb
+D:\Github\My-.NET-Developer-journal\ExemploPOO\obj\Debug\net8.0\ExemploPOO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\My-.NET-Developer-journal\ExemploPOO\obj\Debug\net8.0\ExemploPOO.AssemblyInfoInputs.cache
+D:\Github\My-.NET-Developer-journal\ExemploPOO\obj\Debug\net8.0\ExemploPOO.AssemblyInfo.cs
+D:\Github\My-.NET-Developer-journal\ExemploPOO\obj\Debug\net8.0\ExemploPOO.csproj.CoreCompileInputs.cache
+D:\Github\My-.NET-Developer-journal\ExemploPOO\obj\Debug\net8.0\ExemploPOO.sourcelink.json
+D:\Github\My-.NET-Developer-journal\ExemploPOO\obj\Debug\net8.0\ExemploPOO.dll
+D:\Github\My-.NET-Developer-journal\ExemploPOO\obj\Debug\net8.0\refint\ExemploPOO.dll
+D:\Github\My-.NET-Developer-journal\ExemploPOO\obj\Debug\net8.0\ExemploPOO.pdb
+D:\Github\My-.NET-Developer-journal\ExemploPOO\obj\Debug\net8.0\ExemploPOO.genruntimeconfig.cache
+D:\Github\My-.NET-Developer-journal\ExemploPOO\obj\Debug\net8.0\ref\ExemploPOO.dll
