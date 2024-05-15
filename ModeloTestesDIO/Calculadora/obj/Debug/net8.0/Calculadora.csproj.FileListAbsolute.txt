@@ -1,0 +1,15 @@
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\bin\Debug\net8.0\Calculadora.exe
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\bin\Debug\net8.0\Calculadora.deps.json
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\bin\Debug\net8.0\Calculadora.runtimeconfig.json
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\bin\Debug\net8.0\Calculadora.dll
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\bin\Debug\net8.0\Calculadora.pdb
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\obj\Debug\net8.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\obj\Debug\net8.0\Calculadora.AssemblyInfoInputs.cache
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\obj\Debug\net8.0\Calculadora.AssemblyInfo.cs
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\obj\Debug\net8.0\Calculadora.csproj.CoreCompileInputs.cache
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\obj\Debug\net8.0\Calculadora.sourcelink.json
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\obj\Debug\net8.0\Calculadora.dll
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\obj\Debug\net8.0\refint\Calculadora.dll
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\obj\Debug\net8.0\Calculadora.pdb
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\obj\Debug\net8.0\Calculadora.genruntimeconfig.cache
+D:\Github\My-.NET-Developer-journal\ModeloTestesDIO\calculadora\obj\Debug\net8.0\ref\Calculadora.dll
