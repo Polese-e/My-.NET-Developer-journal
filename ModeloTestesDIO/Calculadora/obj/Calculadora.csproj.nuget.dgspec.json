@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\My-.NET-Developer-journal\\ModeloTestesDIO\\calculadora\\Calculadora.csproj": {}
+    "D:\\Github\\My-.NET-Developer-journal\\ModeloTestesDIO\\Calculadora\\Calculadora.csproj": {}
   },
   "projects": {
-    "D:\\Github\\My-.NET-Developer-journal\\ModeloTestesDIO\\calculadora\\Calculadora.csproj": {
+    "D:\\Github\\My-.NET-Developer-journal\\ModeloTestesDIO\\Calculadora\\Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\My-.NET-Developer-journal\\ModeloTestesDIO\\calculadora\\Calculadora.csproj",
+        "projectUniqueName": "D:\\Github\\My-.NET-Developer-journal\\ModeloTestesDIO\\Calculadora\\Calculadora.csproj",
         "projectName": "Calculadora",
-        "projectPath": "D:\\Github\\My-.NET-Developer-journal\\ModeloTestesDIO\\calculadora\\Calculadora.csproj",
+        "projectPath": "D:\\Github\\My-.NET-Developer-journal\\ModeloTestesDIO\\Calculadora\\Calculadora.csproj",
         "packagesPath": "C:\\Users\\enzop\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\My-.NET-Developer-journal\\ModeloTestesDIO\\calculadora\\obj\\",
+        "outputPath": "D:\\Github\\My-.NET-Developer-journal\\ModeloTestesDIO\\Calculadora\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\enzop\\AppData\\Roaming\\NuGet\\NuGet.Config"

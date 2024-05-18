@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jaybRbahK7b2iV+GpAPySH0Wrxr9ZXcemcDnigRec05QegygoQW9t0wB86ufcH+nlyttT/u0fOhZvWCs6VmzCQ==",
+  "dgSpecHash": "F3EooOP4v7qYI2dSFrApd9SrzO3XQk7g9Wuz0i+sRV4KaLC8Fu2PIwMs3ohT0PB6Z14AjsWBjJTszwrUMvKgrg==",
   "success": true,
-  "projectFilePath": "D:\\Github\\My-.NET-Developer-journal\\ModeloTestesDIO\\calculadora\\Calculadora.csproj",
+  "projectFilePath": "D:\\Github\\My-.NET-Developer-journal\\ModeloTestesDIO\\Calculadora\\Calculadora.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
